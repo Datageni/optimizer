@@ -52,3 +52,4 @@ The Laplace Criterion assumes that all states are equally probable and aims to m
 - **Loss:**
   $\text{Laplace Criterion (Loss)} = \min_i \left( \frac{1}{n} \sum_{j=1}^n a_{ij} \right)$
 
+
