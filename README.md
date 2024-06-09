@@ -39,7 +39,7 @@ The Savage Criterion seeks to minimize the maximum regret, where regret is defin
 
 - **Loss:**
   $\text{Regret}_{ij} = a_{ij} - \min_j a_{ij}$
-  $\text{Savage Criterion (Loss)} = \max_i \left( \min_j \text{Regret}_{ij} \right)$
+  $\text{Savage Criterion (Loss)} = \min_i \left( \max_j \text{Regret}_{ij} \right)$
 
 ### Laplace Criterion (Equal Probability)
 
@@ -51,4 +51,5 @@ The Laplace Criterion assumes that all states are equally probable and aims to m
 
 - **Loss:**
   $\text{Laplace Criterion (Loss)} = \min_i \left( \frac{1}{n} \sum_{j=1}^n a_{ij} \right)$
+
 
