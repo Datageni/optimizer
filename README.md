@@ -14,6 +14,8 @@ The Wald Criterion focuses on minimizing the maximum possible loss. It is a cons
 
 - **Gain:**
   $\text{Wald Criterion (Gain)} = \max_i \left( \min_j a_{ij} \right)$
+
+
   Where $a_{ij}$ represents the payoff for action $i$ in state $j$.
 
 - **Loss:**
