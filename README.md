@@ -35,10 +35,14 @@ The Savage Criterion seeks to minimize the maximum regret, where regret is defin
 
 - **Gain:**
   $Regret_{ij} = \max_j a_{ij} - a_{ij}$
+
+
   $\text{Savage Criterion (Gain)} = \min_i \left( \max_j \text{Regret}_{ij} \right)$
 
 - **Loss:**
   $Regret_{ij} = a_{ij} - \min_j a_{ij}$
+
+  
   $\text{Savage Criterion (Loss)} = \max_i \left( \min_j \text{Regret}_{ij} \right)$
 
 ### Laplace Criterion (Equal Probability)
