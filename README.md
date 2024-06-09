@@ -34,7 +34,7 @@ The Optimistic Criterion, also known as the Maximax Criterion, aims to maximize 
 The Savage Criterion seeks to minimize the maximum regret, where regret is defined as the difference between the payoff of the best action and the payoff of the chosen action.
 
 - **Gain:**
-  $\text{Regret}_{ij}$
+  $\Regret_{ij}$
   $\text{Savage Criterion (Gain)} = \min_i \left( \max_j \text{Regret}_{ij} \right)$
 
 - **Loss:**
