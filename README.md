@@ -16,7 +16,7 @@ The Wald Criterion focuses on minimizing the maximum possible loss. It is a cons
   $$
   \text{Wald Criterion (Gain)} = \max_i \left( \min_j a_{ij} \right)
   $$
-  Where \(a_{ij}\) represents the payoff for action \(i\) in state \(j\).
+  Where $a_{ij}$ represents the payoff for action $i$ in state $j$.
 
 - **Loss:**
   $$
@@ -65,10 +65,9 @@ The Laplace Criterion assumes that all states are equally probable and aims to m
   $$
   \text{Laplace Criterion (Gain)} = \max_i \left( \frac{1}{n} \sum_{j=1}^n a_{ij} \right)
   $$
-  Where \(n\) is the number of states.
+  Where $n$ is the number of states.
 
 - **Loss:**
   $$
   \text{Laplace Criterion (Loss)} = \min_i \left( \frac{1}{n} \sum_{j=1}^n a_{ij} \right)
   $$
-
